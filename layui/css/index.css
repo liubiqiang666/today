@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.head{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+.nav ul{
+    height: 100px;
+    margin: 0 auto;
+
+}
+.nav img{
+    float: left;
+}
+.nav ul li{
+    margin-top: 35px;
+    margin-left: 35px;
+    float: left;
+    color: white;
+}
+.nav-1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    background: #487AF6;
+    right: 100px;
+    top: 35px;
+}
+.nav-1 p{
+    color: white;
+    text-align: center;
+}
+.lunbo{
+  
+    margin-top: 0px;
+    width: 100%;
+    height: 500px;
+}
+.layui-carousel img{
+    border: 1px solid red;
+    margin-top: 0px;
+    width: 100%;
+    height: 500px;
+}
+.con{
+    justify-content: space-between;
+    padding-top: 50px;
+    height: 400px;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.con-1 img{
+    position: relative;
+    float: left;
+}
+.con-1 p{
+    position: relative;
+    font-size: 25px;
+    float: left;
+    margin-left:20px;
+}
+.maincon{
+    background-color: darkgray;
+    width: 70%;
+    height: 1000px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+
+
