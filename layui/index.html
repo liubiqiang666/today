@@ -20,15 +20,19 @@
     </script>
     <script src="lyaui/lay/modules/element.js"></script>
     <title>Document</title>
+    <style>
+    @media (max-width: 970px) {
+   .nav { display: none }
+    }
+    </style>
 </head>
 <body>
     <div class="head">
     <div class="layui-row">
-    <div class="logo layui-col-md3 layui-col-xs11">
+    <div class="logo layui-col-md3 layui-col-sm11 layui-col-xs11">
     <img src="images/logo.png" alt="" style="margin-left: 50px; margin-top: 10px;">
     </div>
-
-    <div class=" nav layui-col-md8 layui-col-xs0">
+    <div class=" nav layui-col-md8  layui-col-sm0 layui-col-xs0">
   <ul>
     <li>首页</li>
     <li>产品</li>
@@ -43,7 +47,7 @@
   </ul>
     </div>
 
-    <div class=" nav-1   layui-col-md1 layui-col-xs1"><a href="" >
+    <div class=" nav-1   layui-col-md1 layui-col-sm1 layui-col-xs1"><a href="" >
      <p>EN</p> </a>
     </div>
 </div>
@@ -85,13 +89,40 @@
 
 
   <div class=" con layui-row">
-      <div class=" con-1 layui-col-md12  layui-col-xs8">
+      <div class=" con-1  layui-col-xs8  layui-hide-*none " >
         <img src="images/pen1.png" alt="">
         <p>白鹭引擎</p> 
       </div>
       </div>
       <div class="maincon">
-
+        <h1>效率至上的一站式完整开发工作流</h1>
+        <h2>2D/3D双核心渲染，开发工具链闭环整合，全流程开发，由此开始</h2>
+        <img src="images/RX)1WAV1RAAQQQL6XP6V]TK.gif" alt=""> </li>
+        
+        <!-- <div class="layui-carousel" id="test2">
+            <div carousel-item>
+              <div><img src="images/engine1.png" alt="" ></div>
+              <div><img src="images/engine2.png" alt=""></div>
+              <div><img src="images/engine3.png" alt=""></div>
+            
+            </div>
+          </div>
+         
+           
+          <script src="/static/build/layui.js"></script>
+          <script>
+          layui.use('carousel', function(){
+            var carousel = layui.carousel;
+            //建造实例
+            carousel.render({
+              elem: '#test2'
+              ,width: '100%' //设置容器宽度
+              ,height:'500px'
+              ,arrow: 'always' //始终显示箭头
+              //,anim: 'updown' //切换动画方式
+            });
+          });
+          </script> -->
 
 
 
